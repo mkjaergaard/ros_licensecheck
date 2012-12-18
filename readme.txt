@@ -10,7 +10,7 @@ find . -name "*.py" | xargs licensecheck
 
 Just specify the source file and use -d to set where the ros_licensecheck/license folder is.
 E.g.
-./ros_add_license -d ../licenses ~/my_source_file.cpp
+./bin/ros_add_license -d ./licenses ~/my_source_file.cpp
 
 Note: this will modify the file
 
